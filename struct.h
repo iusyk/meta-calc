@@ -4,7 +4,7 @@
 #define OPERATOR 0
 #define FUNCTION 1
 #define PARENTHESIS 2
-
+// first test
 struct token {
 	
 	int type;
