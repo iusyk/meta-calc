@@ -40,7 +40,7 @@ static const int association[] = { 1, 1, 1, 1, 1, 0, 0, 0, 0, 0 };
 enum { SIN, COS, TAN, ASIN, ACOS, ATAN, SINH, COSH, TANH, ASINH, ACOSH, ATANH, EXP, FLOOR, CEIL, ROUND, LOG, LN, SQRT, ABS, SGN };
 
 int parseOptions(int argc, char* argv[]) {
-	
+// comment for the test	
 	for(int i = 1; i < argc; i++) {
 		if(strcmp(argv[i], "-n") == 0)
 			USE_NEWLINE = 1;
